@@ -1,0 +1,111 @@
+.menu-main {
+	list-style: none;
+	margin: 40px 0 5px;
+	padding: 25px 0 5px;
+	text-align: center;
+	background: white;
+}
+.menu-main li {display: inline-block;}
+.menu-main li:after {
+	content: "|";
+	color: #606060;
+	display: inline-block;
+	vertical-align:top;
+}
+.menu-main li:last-child:after {content: none;}
+.menu-main a {
+	text-decoration: none;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	letter-spacing: 2px;
+	position: relative;
+	padding-bottom: 20px;
+	margin: 0 34px 0 30px;
+	font-size: 17px;
+	/*text-transform: uppercase;*/
+	display: inline-block;
+	transition: color .2s;
+}
+.menu-main a, .menu-main a:visited {color: #9d999d;}
+.menu-main a.current, .menu-main a:hover{color: #2489eb;}
+.menu-main a:before,
+.menu-main a:after {
+	content: "";
+	position: absolute;
+	height: 4px;
+	top: auto;
+	right: 50%;
+	bottom: -5px;
+	left: 50%;
+	background: #feb386;
+	transition: .8s;
+}
+.menu-main a:hover:before, .menu-main .current:before {left: 0;}
+.menu-main a:hover:after, .menu-main .current:after {right: 0;}
+@media (max-width: 550px) {
+	.menu-main {padding-top: 0;}
+	.menu-main li {display: block;}
+	.menu-main li:after {content: none;}
+	.menu-main a {
+		padding: 25px 0 20px;
+		margin: 0 30px;
+	}
+}
+
+ul.submenu {
+	display: none;
+	position: absolute;
+	width: auto;
+	top: 50px;
+	/*left: 0;*/
+	/*background-color: white;*/
+	background-color: #454851;
+	border: 1px solid #25272b;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0 2px 1px rgba(0,0,0,0.2),inset 1px 1px 0 rgba(255,255,255,0.1);
+	-o-box-shadow: 0 2px 1px rgba(0,0,0,0.2),inset 1px 1px 0 rgba(255,255,255,0.1);
+	-webkit-box-shadow: 0 2px 1px rgba(0,0,0,0.2),inset 1px 1px 0 rgba(255,255,255,0.1);
+	-ms-box-shadow: 0 2px 1px rgba(0,0,0,0.2),inset 1px 1px 0 rgba(255,255,255,0.1);
+	box-shadow: 0 2px 1px rgba(0,0,0,0.2),inset 1px 1px 0 rgba(255,255,255,0.1);
+	padding:0;
+	list-style: none;
+	margin: 0;
+	overflow:hidden
+}
+ul.submenu > li {
+	display: block;
+}
+ul.submenu > li > a {
+	display: block;
+	/*padding: 10px;*/
+	color: #0c0c0c;
+	background-color: #ffffff;
+	text-decoration: none;
+}
+ul.submenu > li > a:hover {
+	text-decoration: underline;
+}
+ul.menu > li > a {
+	display: block;
+	padding: 10px;
+	color: white;
+	background-color: red;
+	text-decoration: none;
+}
+ul.menu > li > a:hover {
+	background-color: black;
+}
+.rd-nav-item:hover .submenu {
+	display: block;
+}
+.submenu a:hover {
+	background: #2489eb;
+	color: #ffffff;
+	text-decoration: none !important;
+}
+.submenu li:last-child {
+	position: relative !important;
+}

@@ -1,0 +1,10 @@
+# Created by .ignore support plugin (hsz.mobi)
+/wp-config.php
+.idea/inspectionProfiles/
+wp-content/plugins/unyson/tmp/
+wp-content/upgrade/
+wp-content/uploads/
+.idea
+wp-content/themes/new-seo.zip
+wp-content/themes/horizon/Horizon_html
+wp-content/themes/new-seo/html

@@ -1,0 +1,99 @@
+.popup__overlay {
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.7);
+	text-align: center
+}
+.popup__overlay:after {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	height: 100%;
+	width: 0;
+	vertical-align: middle;
+	content: ''
+}
+/* Added for IE<9 compatibility */
+.popup__overlay_ie {
+	background: #000;
+	opacity: .7;
+	filter: alpha(opacity=70)
+}
+.popup {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	position: relative;
+	max-width: 80%;
+	padding: 20px;
+	border-radius: 15px;
+	border:3px solid #2489eb;
+	background: #fff;
+	vertical-align: middle
+}
+/* Added instead of :after pseudoelement */
+.popup__valignfix {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	width: 0;
+	height: 100%;
+	vertical-align: middle
+}
+input[type="button"] {
+	padding: 6px 16px;
+	border: 0;
+	border-radius: 2px;
+	cursor: pointer;
+	background: #ff6600;
+	color: #fff
+}
+.popup__close {
+	display: block;
+	position: absolute;
+	top: -35px;
+	right: 0;
+	width: auto;
+	height: auto;
+	padding: 8px;
+	border-radius: 50%;
+	cursor: pointer;
+	background: #2489eb;
+	text-align: center;
+	font-size: 20px;
+	line-height: 12px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	cursor:pointer;
+}
+.popup__close:hover {
+	background: #bc0b0b;
+}
+.popup h2 {
+	text-transform: uppercase;
+	color: #2489eb;
+	font-weight: bold;
+	font-size: 36px;
+}
+.popup p {
+	color: #0c0c0c;
+	font-weight: 700;
+}
+.popup input {
+	width: 100%;
+	margin: 10px auto;
+	border-radius: 25px;
+	border: 1px solid #000;
+	height: 50px;
+	padding-left: 30px;
+}
+@media screen and (min-width:200px) and (max-width:1024px) {
+	.popup h2 {
+		font-size: 27px;
+	}
+}
