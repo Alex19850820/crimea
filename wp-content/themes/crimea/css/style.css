@@ -83,7 +83,7 @@ body{
 .header-contacts span:last-child a{
 	color: #000000;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 30px;
 	text-decoration: none;
 }
 .rd-nav-menu__right {
@@ -264,6 +264,15 @@ body{
 	}
 }
 @media (max-width: 1300px) {
+	.header-contacts {
+		float: none;
+	}
+	.header-contacts span {
+		display: inline-block;
+	}
+	.header-menu {
+		margin: 15px 20px;
+	}
 	.rd-nav-item {
 		margin-right: 10px !important;
 	}
@@ -358,6 +367,12 @@ body{
 		/*width: 95%;*/
 		/*margin: 0 auto;*/
 	/*}*/
+	.header-contacts {
+		text-align: center;
+	}
+	.header-menu {
+		display: none !important;
+	}
 	.rd-service {
 		height: 100% !important;
 	}

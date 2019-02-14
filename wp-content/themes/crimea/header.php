@@ -102,7 +102,7 @@ $contacts = fw_get_db_customizer_option();
 			</ul>
 		</div>
 		<div class="header-contacts">
-			<span><button class="header-button" id="popup__toggle2">Заказать звонок</button></span>
+<!--			<span><button class="header-button" id="popup__toggle2">Заказать звонок</button></span>-->
 			<span><a href="tel:<?=$contacts['phone']?>" target="_blank"><?=$contacts['phone']?></a></span>
 		</div>
 		<!--mobile-->
