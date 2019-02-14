@@ -1069,11 +1069,11 @@ body{
 	font-weight: 900;
 	text-transform: uppercase;
 }
-.rd-service.photo:last-child {
-	border: #2489eb solid 8px;
-	width: 365px;
-	height: 450px;
-}
+/*.rd-service.photo:last-child {*/
+	/*border: #2489eb solid 8px;*/
+	/*width: 365px;*/
+	/*height: 450px;*/
+/*}*/
 .rd-advantages {
 	width: 100%;
 	height: 418px;
