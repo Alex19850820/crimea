@@ -30,7 +30,7 @@ $contacts = fw_get_db_customizer_option();
 <!--				<nav>-->
 <!--					<div class="rd-navbar-main-outer">-->
 <!--						<div class="rd-navbar-main">-->
-<!--							<!-- RD Navbar Panel-->-->
+<!--							<!-- RD Navbar Panel-->
 <!--							<div class="rd-navbar-panel">-->
 <!--								<!-- RD Navbar Toggle-->
 <!--								<!-- LOGO-->
