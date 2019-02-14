@@ -9,7 +9,7 @@
  **/
 
 ?>
-<section class="rd-marketing" style="background: url(<?=$atts['img']['url']?>) top center no-repeat;">
+<section class="rd-marketing" style="background: url(<?=$atts['img']['url']?>) 100% 100% no-repeat; background-size: cover;">
 	<div class="container">
 		<div class="rd-marketing left-text">
 			<h1><?=$atts['h1']?></h1>
