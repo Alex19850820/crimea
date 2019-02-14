@@ -361,6 +361,15 @@ body{
 		float: left;
 	}
 }
+@media screen and (min-width:200px) and (max-width:397px) {
+	.logo-head {
+		float: none !important;
+		margin: 0 auto !important;
+	}
+	.header {
+		height: 100px !important;
+	}
+}
 @media screen and (min-width:200px) and (max-width:1024px) {
 	/*body .container {*/
 		/*margin-top: 40px;*/
