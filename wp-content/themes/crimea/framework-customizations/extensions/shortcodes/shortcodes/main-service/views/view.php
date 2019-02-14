@@ -18,8 +18,8 @@
 				<h2><?=$service['h2']?></h2>
 			</div>
 		<?php endforeach;?>
-		<div class="rd-service photo">
-			<a href="<?=$atts['href_all']?>">Все услуги</a>
-		</div>
+<!--		<div class="rd-service photo">-->
+<!--			<a href="--><?//=$atts['href_all']?><!--">Все услуги</a>-->
+<!--		</div>-->
 	</div>
 </section>
