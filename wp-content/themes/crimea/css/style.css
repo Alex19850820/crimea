@@ -880,6 +880,7 @@ body{
 	height: auto;
 	position: relative;
 	float: left;
+	text-align: center;
 }
 .rd-marketing.left-text h1{
 	color: red;
