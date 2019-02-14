@@ -369,6 +369,9 @@ body{
 	.header {
 		height: 100px !important;
 	}
+	.rd-navbar-mob-menu {
+		margin: -90px 70% !important;
+	}
 }
 @media screen and (min-width:200px) and (max-width:1024px) {
 	/*body .container {*/
