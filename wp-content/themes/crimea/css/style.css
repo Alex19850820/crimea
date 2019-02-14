@@ -996,7 +996,7 @@ body{
 	box-sizing: border-box;
 	float: left;
 	margin-bottom: 52px;
-	border: 1px solid #000000;
+	border: 3px solid #2489eb;
 }
 .rd-service.photo > img {
 	width: 365px;
@@ -1038,7 +1038,7 @@ body{
 .rd-service.photo:last-child {
 	border: #2489eb solid 8px;
 	width: 365px;
-	height: 365px;
+	height: 450px;
 }
 .rd-advantages {
 	width: 100%;
