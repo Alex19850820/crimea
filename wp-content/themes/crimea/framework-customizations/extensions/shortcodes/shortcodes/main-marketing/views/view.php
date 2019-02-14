@@ -23,7 +23,7 @@
 			<form id="request" class="form-feedback" action="">
 				<input name="name" type="text" placeholder="Ваше имя"><hr>
 				<input name="email" type="text" placeholder="E-mail"><hr>
-				<input name="site" type="text" id="phone" placeholder="Ваш телефон"><hr>
+				<input name="phone" type="text" id="phone" placeholder="Ваш телефон"><hr>
 				<div class="form-button">
 					<button id="send__form" data-form="request" type="submit">Отправить</button>
 				</div>
