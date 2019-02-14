@@ -41,7 +41,7 @@ $contacts = fw_get_db_customizer_option();
 						<a href="<?=$contacts['instagram']?>" target="_blank"><img src="<?php bloginfo('template_url')?>/img/instagram_ico.png"></a>
 						<a href="<?=$contacts['google']?>" target="_blank"><img src="<?php bloginfo('template_url')?>/img/google_ico.png"></a>
 					</div>
-					<span>&copy; 2018 Seo PSD</span
+					<span>&copy; 2019 КрымГенПроект</span
 				</div>
 			</div>
 		</section>

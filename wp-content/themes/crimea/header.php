@@ -95,7 +95,6 @@ $contacts = fw_get_db_customizer_option();
 		</div>
 		<div class="header-menu" id="menu">
 			<ul class="header-menu-main">
-				<li><a href="#">Каталог</a></li>
 				<li><a href="#service">Услуги</a></li>
 				<li><a href="#cases">Кейсы</a></li>
 				<li><a href="#feedbacks">Отзывы</a></li>
@@ -115,10 +114,10 @@ $contacts = fw_get_db_customizer_option();
 		<div class="rd-nav-menu__right jsMenu menu-active" id="menu_mob">
 			<h3>Меню</h3>
 			<ul>
-				<li><a href="#">Каталог</a></li>
-				<li><a href="#delivery">Доставка и самовывоз</a></li>
-				<li><a href="#gallery">Фотогалерея</a></li>
-				<li><a href="#delivery">Контакты</a></li>
+				<li><a href="#service">Услуги</a></li>
+				<li><a href="#cases">Кейсы</a></li>
+				<li><a href="#feedbacks">Отзывы</a></li>
+				<li><a href="#contacts">Контакты</a></li>
 			</ul>
 			<div class="header-contacts">
 				<span><button class="header-button" id="popup__toggle">Заказать звонок</button></span>
