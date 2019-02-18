@@ -23,68 +23,6 @@ $contacts = fw_get_db_customizer_option();
 </head>
 
 <body <?php body_class(); ?>>
-	
-<!--		<header class="section page-header" id="home">-->
-<!--			<!-- RD Navbar-->
-<!--			<div class="rd-navbar-wrap">-->
-<!--				<nav>-->
-<!--					<div class="rd-navbar-main-outer">-->
-<!--						<div class="rd-navbar-main">-->
-<!--							<!-- RD Navbar Panel-->
-<!--							<div class="rd-navbar-panel">-->
-<!--								<!-- RD Navbar Toggle-->
-<!--								<!-- LOGO-->
-<!--								<a class="rd-navbar-brand" href="/">-->
-<!--									<img src="--><?//=$contacts['img_logo']['url'] ?? ''?><!--" alt="" srcset="--><?//=$contacts['img_logo']['url'] ?? ''?><!--"/>-->
-<!--								</a>-->
-<!--							</div>-->
-<!--							<div class="rd-navbar-main-element" id="menu">-->
-<!--								<div class="rd-navbar-nav-wrap" id="rd-navbar-nav-wrap-1">-->
-<!--									<ul class="rd-navbar-nav">-->
-<!--										<li class="rd-nav-item"><a class="rd-nav-link" href="#service">Услуги и цены</a></li>-->
-<!--										<li class="rd-nav-item"><a class="rd-nav-link" href="#cases">Кейсы</a></li>-->
-<!--										<li class="rd-nav-item"><a class="rd-nav-link" href="#feedbacks">Отзывы клиентов</a></li>-->
-<!--										<li class="rd-nav-item"><a class="rd-nav-link" href="#contacts">Контакты</a></li>-->
-<!--										<li class="rd-nav-item">-->
-<!--											<a class="rd-nav-link" href="tel:--><?//=$contacts['phone']?><!--" target="_blank">-->
-<!--												<img src="--><?php //bloginfo('template_url')?><!--/img/phone.png">-->
-<!--												<span>--><?//=$contacts['phone']?><!--</span>-->
-<!--											</a>-->
-<!--											<a class="rd-nav-link last" href="#">-->
-<!--												Заказать звонок-->
-<!--											</a>-->
-<!--										</li>-->
-<!--									</ul>-->
-<!--								</div>-->
-<!--							</div>-->
-<!--							<div class="rd-navbar-mob-menu jsMobMenu">-->
-<!--								<span></span>-->
-<!--								<span></span>-->
-<!--								<span></span>-->
-<!--							</div>-->
-<!--							<div class="rd-nav-menu__right jsMenu menu-active" id="menu_mob">-->
-<!--								<h3>Меню</h3>-->
-<!--								<ul >-->
-<!--									<li ><a href="#service">Услуги и цены</a></li>-->
-<!--									<li ><a href="#cases">Кейсы</a></li>-->
-<!--									<li ><a href="#feedbacks">Отзывы клиентов</a></li>-->
-<!--									<li ><a href="#contacts">Контакты</a></li>-->
-<!--									<li class="rd-nav-item">-->
-<!--										<a class="rd-nav-link" href="tel:--><?//=$contacts['phone']?><!--" target="_blank">-->
-<!--											<img src="--><?php //bloginfo('template_url')?><!--/img/phone.png">-->
-<!--											<span>--><?//=$contacts['phone']?><!--</span>-->
-<!--										</a>-->
-<!--										<a class="rd-nav-link last" href="tel:--><?//=$contacts['phone']?><!--" target="_blank">-->
-<!--											Заказать звонок-->
-<!--										</a>-->
-<!--									</li>-->
-<!--								</ul>-->
-<!--							</div>-->
-<!--						</div>-->
-<!--					</div>-->
-<!--				</nav>-->
-<!--			</div>-->
-<!--		</header>-->
 <header class="header">
 	<div class="container">
 		<div class="logo-head">
@@ -96,7 +34,7 @@ $contacts = fw_get_db_customizer_option();
 		<div class="header-menu" id="menu">
 			<ul class="header-menu-main">
 				<li><a href="#service">Услуги</a></li>
-				<li><a href="#cases">Кейсы</a></li>
+				<li><a href="#cases">Цены</a></li>
 				<li><a href="#feedbacks">Отзывы</a></li>
 				<li><a href="#contacts">Контакты</a></li>
 			</ul>
@@ -115,7 +53,7 @@ $contacts = fw_get_db_customizer_option();
 			<h3>Меню</h3>
 			<ul>
 				<li><a href="#service">Услуги</a></li>
-				<li><a href="#cases">Кейсы</a></li>
+				<li><a href="#cases">Цены</a></li>
 				<li><a href="#feedbacks">Отзывы</a></li>
 				<li><a href="#contacts">Контакты</a></li>
 			</ul>
