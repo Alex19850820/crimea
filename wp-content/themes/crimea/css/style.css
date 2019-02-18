@@ -1123,7 +1123,8 @@ body{
 	font-weight: 900;
 	box-sizing: border-box;
 	font-size: 18px;
-	color: #ffffff;
+	/*color: #ffffff;*/
+	color: #2489eb;
 	text-align: center;
 }
 .rd-advantages.block > p{
