@@ -98,7 +98,7 @@ $contacts = fw_get_db_customizer_option();
 				<li><a href="#service">Услуги</a></li>
 				<li><a href="#cases">Кейсы</a></li>
 				<li><a href="#feedbacks">Отзывы</a></li>
-				<li><a href="##contacts">Контакты</a></li>
+				<li><a href="#contacts">Контакты</a></li>
 			</ul>
 		</div>
 		<div class="header-contacts">
