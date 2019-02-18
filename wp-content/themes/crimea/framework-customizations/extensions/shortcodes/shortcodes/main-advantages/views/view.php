@@ -9,7 +9,7 @@
  **/
 
 ?>
-<section class="rd-advantages" style="background: url(<?php bloginfo('template_url')?>/img/advantages.png) top center no-repeat;">
+<section class="rd-advantages" style="background: url(<?=$atts['img']?>) top center no-repeat;">
 	<div class="container">
 		<h2><?=$atts['h2']?></h2>
 		<div class="row">

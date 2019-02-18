@@ -13,6 +13,12 @@ $options = [
 		'value' => 'Отзывы',
 		'label' => __('Заголовок', '{domain}'),
 	],
+	'img'     => [
+		'type'  => 'upload',
+		'value' => '',
+		'label' => __('Добавить фон', '{domain}'),
+		'images_only' => true,
+	],
 	'feedbacks' => [
 		'type' => 'addable-popup',
 		'label' => __('Добавить отзыв', '{domain}'),

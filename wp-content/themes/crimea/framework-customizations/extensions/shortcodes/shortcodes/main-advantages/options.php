@@ -13,6 +13,12 @@ $options = [
 		'value' => 'Наши преимущества',
 		'label' => __('Заголовок', '{domain}'),
 	],
+	'img'     => [
+		'type'  => 'upload',
+		'value' => '',
+		'label' => __('Добавить фон блока', '{domain}'),
+	'   images_only' => true,
+	],
 	'advantages' => [
 		'type' => 'addable-popup',
 		'label' => __('Добавить преимущество ', '{domain}'),
