@@ -9,7 +9,7 @@
  **/
 
 ?>
-<section id="feedbacks" class="rd-feedback" style="background: url(<?=$atts['img']?>) top center no-repeat;">
+<section id="feedbacks" class="rd-feedback" style="background: url(<?=$atts['img']['url']?>) top center no-repeat;">
 	<div class="container">
 		<h2><?=$atts['h2']?></h2>
 		<div class="row">
