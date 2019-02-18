@@ -1245,7 +1245,8 @@ body{
 	font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	margin-top: 71px;
 	position: absolute;
-	color: #ffffff;
+	/*color: #ffffff;*/
+	color: #2489eb;
 }
 .rd-feedback.block {
 	width: 259px;
