@@ -1100,11 +1100,11 @@ body{
 }
 .rd-advantages.block {
 	width: 259px;
-	height: 300px;
+	/*height: 300px;*/
 	float: left;
 	display: block;
 	box-sizing: border-box;
-	margin-top: 145px;
+	/*margin-top: 145px;*/
 	margin-right: 53px;
 }
 .rd-advantages.block > img{
