@@ -15,7 +15,7 @@ $contacts = fw_get_db_customizer_option();
 				<div class="rd-footer navigation" id="foot_menu">
 					<ul class="rd-footer-nav">
 						<li><a href="#service">Услуги и цены</a></li>
-						<li><a href="#cases">Кейсы</a></li>
+						<li><a href="#cases">Цены</a></li>
 						<li><a href="#feedbacks">Отзывы клиентов</a></li>
 						<li><a href="#contacts">Контакты</a></li>
 					</ul>
