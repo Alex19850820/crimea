@@ -13,6 +13,12 @@ $options = [
 		'value' => 'Кейсы',
 		'label' => __('Заголовок', '{domain}'),
 	],
+	'img'     => [
+		'type'  => 'upload',
+		'value' => '',
+		'label' => __('Добавить фон', '{domain}'),
+		'images_only' => true,
+	],
 	'h2_project'     => [
 		'type'  => 'text',
 		'value' => 'Название проекта',
