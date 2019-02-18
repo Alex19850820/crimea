@@ -1076,7 +1076,7 @@ body{
 /*}*/
 .rd-advantages {
 	width: 100%;
-	height: 418px;
+	/*height: 418px;*/
 	display: inline-block;
 }
 .rd-advantages.center {
@@ -1085,6 +1085,10 @@ body{
 	/*margin-left: 0px;*/
 	margin: 0 388px;
 	position: absolute;
+}
+.rd-advantages > container > .row {
+	padding-top: 150px;
+	padding-bottom: 100px;
 }
 .rd-advantages .container > h2 {
 	text-transform: uppercase;
@@ -1104,7 +1108,7 @@ body{
 	float: left;
 	display: block;
 	box-sizing: border-box;
-	/*margin-top: 145px;*/
+	margin-top: 20px;
 	margin-right: 53px;
 }
 .rd-advantages.block > img{
