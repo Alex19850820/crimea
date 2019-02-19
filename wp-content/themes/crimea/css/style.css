@@ -1542,54 +1542,6 @@ body{
 	cursor: pointer;
 }
 
-/*table .tab-quest {*/
-	/*width: 100%;*/
-/*}*/
-
-/*.tab-quest thead, tbody, tr, td, th {*/
-	/*display: block;*/
-/*}*/
-
-/*.tab-quest tr:after {*/
-	/*content: ' ';*/
-	/*display: block;*/
-	/*visibility: hidden;*/
-	/*clear: both;*/
-/*}*/
-
-/*.tab-quest thead th {*/
-	/*height: 100%;*/
-
-	/*!*text-align: left;*!*/
-/*}*/
-
-/*.tab-quest tbody {*/
-	/*height: 120px;*/
-	/*overflow-y: auto;*/
-/*}*/
-
-/*.tab-quest thead {*/
-	/*!* fallback *!*/
-/*}*/
-
-
-/*.tab-quest tbody td, thead th {*/
-	/*width: 19.2%;*/
-	/*float: left;*/
-/*}*/
-/*.tab-quest  td > a  {*/
-	/*cursor: pointer;*/
-
-/*}*/
-/*.tab-quest  td > a:hover  {*/
-	/*background: #2489eb;*/
-	/*color: #ffffff !important;*/
-/*}*/
-/*.tab-quest  tbody > tr:hover {*/
-	/*background: #2489eb;*/
-	/*color: #ffffff !important;*/
-	/*cursor: pointer;*/
-/*}*/
 .rd-quest {
 	width: 100%;
 	position: relative;
@@ -1676,4 +1628,15 @@ body{
 }
 .rd-answer p {
 	text-align: center;
+}
+.rd-about {
+	width: 100%;
+	display: block;
+	position: relative;
+}
+.rd-about h2 {
+	color: #2489eb;
+	font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	box-sizing: border-box;
+	font-size: 36px;
 }

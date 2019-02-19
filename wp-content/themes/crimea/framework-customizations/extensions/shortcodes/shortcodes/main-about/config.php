@@ -6,9 +6,9 @@
 $cfg = [
     'page_builder' => [
         // Заголовок шорткода (название)
-        'title'      => __( 'Вопросы(1)', 'unyson' ),
+        'title'      => __( 'О нас', 'unyson' ),
         // Вкладка, в которой будет находится шорткод
-        'tab'        => __( 'Вопросы', 'unyson' ),
+        'tab'        => __( 'Главная', 'unyson' ),
         // Размер окна
         'popup_size' => 'large', // can be large, medium or small
     ]
