@@ -279,9 +279,9 @@ body{
 	.container {
 		width: 1300px;
 	}
-	.rd-service.photo:last-child {
-		height: 365px !important;
-	}
+	/*.rd-service.photo:last-child {*/
+		/*height: 365px !important;*/
+	/*}*/
 	.rd-marketing.right-form {
 		float:left !important;
 	}
@@ -612,10 +612,10 @@ body{
 	.rd-service .container, .rd-advantages .container  {
 		position: relative !important;
 	}
-	.rd-service.photo:last-child {
-		width: 100% !important;
-		height: 365px !important;
-	}
+	/*.rd-service.photo:last-child {*/
+		/*width: 100% !important;*/
+		/*height: 365px !important;*/
+	/*}*/
 	.rd-advantages .container h2 {
 		position: relative !important;
 		letter-spacing: 0;
