@@ -13,6 +13,12 @@ $options = [
 		'value' => 'О нас',
 		'label' => __('Заголовок', '{domain}'),
 	],
+	'img'     => [
+		'type'  => 'upload',
+		'value' => '',
+		'label' => __('Добавить фон блока', '{domain}'),
+		'   images_only' => true,
+	],
 	'text'     => [
 		'type'  => 'wp-editor',
 		'value' => '',
